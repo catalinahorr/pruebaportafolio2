@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Menu permanente*/
+@media (max-width: 480px) 	{
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    width: 60px;
+}
+
+a.boton-menu {
+    display: inline-block;
+    padding: 10px;
+}
+
+a.boton-menu:link, a.boton-menu:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a.boton-menu:hover, a.boton-menu:active {
+    text-decoration: none;
+    color: #828282;
+}
+
+
+.menu {
+	position: sticky;
+	top: 0px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	
+	text-align: center;
+	width: 100%;
+	font-family: 'Roboto'
+	
+}
+}
+
+
+
+/*todos los p y todos los h2*/
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-family: 'Roboto'
+    }
+
+    h2{
+    	color:grey;
+
+    	text-align: center;
+    	font-family: 'Oswald Extralight'
+    }
+
+ /*Primera pantalla*/
+    .Inicio	{
+    	text-align: center;
+    	padding-top: 50%;
+    	padding-bottom: 100%;
+    	
+    	
+    }
+
+    h1	{
+    	color: grey;
+    	font-size: 40px;
+    	font-family: 'Oswald light'
+
+    }
+
+    .Inicio > p 	{
+    	text-align: center;
+    	color:#c4c4c4;
+    }
+
+/*segunda parte,sobre mi*/
+    #sobre-mi > h2{
+    	padding-bottom: 30%;
+    	padding-top: 20%;
+    }
+
+    #sobre-mi > p{
+    	padding-bottom: 70%;
+    	color: grey;
+    	font-size: 18px;
+
+    }
+/*imagenes con titulo portafolio*/
+    #Portafolio > h2{
+    	padding-bottom: 30%;
+    	padding-top: 20%;
+
+    }
+
+        .imagen-uno		{
+    	position: relative;
+    	
+    }
+
+    .tituloimagen{
+        position: absolute;
+    	bottom: 20px;
+    	width: 100%;
+    	text-align: right;
+    	padding-left: 5%;
+    	padding-right: 10%;
+    	background-color: rgba(255, 255, 255, 0.7)
+}
+
+.imagen-cinco	{
+	position: relative;
+}
+
+.tituloimagendos	{
+	bottom: 20px;
+        position: absolute;       
+        width: 100%;
+    	text-align: right;
+    	padding-left: 5%;
+    	padding-right: 10%;
+    	background-color: rgba(255, 255, 255, 0.7)
+
+}
+.imagen-nueve	{
+	position: relative;
+}
+.tituloimagentres	{
+	bottom: 20px;
+        position: absolute;       
+        width: 100%;
+    	text-align: right;
+    	padding-left: 5%;
+    	padding-right: 10%;
+    	background-color: rgba(255, 255, 255, 0.7)
+
+}
+.imagen-siete	{
+	position: relative;
+}
+.tituloimagencuatro	{
+	bottom: 20px;
+        position: absolute;       
+        width: 100%;
+    	text-align: right;
+    	padding-left: 5%;
+    	padding-right: 10%;
+    	background-color: rgba(255, 255, 255, 0.7)
+}
+
+/*titulo de cada seccion del portafolio*/
+    .tituloimagen , .tituloimagendos, .tituloimagentres, .tituloimagencuatro 	{
+    	font-family: 'Oswald Extralight' 
+    	}
+
+/*padding de cada imagen*/
+
+.imagen-dos		{
+	padding-top: 10%;
+}
+
+.imagen-tres	{
+	padding-top: 10%;
+}
+
+.imagen-cuatro	{
+	padding-top: 10%
+}
+
+.imagen-cincouno	{
+	padding-top: 10%
+}
+
+.imagen-seistres	{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.imagen-seis{
+padding-top: 10%;
+padding-bottom: 10%;
+	
+}
+
+.imagen-diez	{
+padding-top: 10%;
+padding-bottom: 10%;	
+}
+
+
+.imagen-ocho	{
+	padding-bottom: 70%;
+	padding-top: 10%
+
+}
+
+/*foooter*/
+
+#Formulario {	
+	padding-top: 3%;
+	padding-bottom: 3%
+
+}
+  
+
+
+footer	{
+	background-color: #c4c4c4;
+}
+
+/*formulario]*/
+form > h2	{
+	padding-bottom: 30%;
+    	padding-top: 20%;
+}
+
+form{
+
+width: 458px;
+margin:auto;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+
+input, textarea	{
+	font-size: 14px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px; 
+	box-sizing: border-box;
+	font-family: 'Roboto light' 
+}
+
+textarea	{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#boton{
+	background-color: #828282;
+	padding: 20px;
+	color: white;
+}
+
+#boton:hover	{
+	cursor: pointer;
+}
+
+@media (max-width: 480px) 	{
+	form{
+width: 100%;
+	}
+
+}
+                                                                                                                                                                                                   
+
